@@ -11,9 +11,9 @@ h2{
 .text-white{
    color: white; 
 }
-section{
+.flexible-container{
     display: flex;
-    padding: 6%;
+    padding: 4%;
     
 }
 .half-width{
@@ -32,4 +32,26 @@ img{
 .top-banner{
     background-image: url(images/wave.svg);
     background-repeat: no-repeat;
+}
+.Specialize-Head{
+    text-align: center;
+    padding: 0% 20%;
+}
+.parent{
+    display: flex;
+    padding: 0 10%;
+
+}
+.child{
+    box-shadow: 10px 5px 40px black;
+    margin: 2%;
+    padding: 50px;
+    border-radius: 0 20px 50px 0;
+    border-left: 5px solid;
+    border-image:linear-gradient(blue, cyan) 0 100%
+
+
+}
+footer{
+    text-align: center;
 }
